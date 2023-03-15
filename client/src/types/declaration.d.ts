@@ -5,4 +5,5 @@
 declare module "*pages";
 declare module "*assets";
 declare module "*constants";
-declare module "*.tsx";
+declare module "*utils";
+declare module "*components";

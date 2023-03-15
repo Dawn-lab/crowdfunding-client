@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router-dom'
 // import Profile from './pages/Profile'
 // import CreateCampaign from './pages/CreateCampaign'
 // import CampaignDetails from './pages/CampaignDetails'
-import { CampaignDetails, Profile, Home, CreateCampaign } from './pages'
+import { CampaignDetails, Profile, Home } from './pages'
 import Sidebar from './components/Sidebar'
 import Navbar from './components/Navbar'
 
@@ -23,7 +23,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/profile" element={<Profile />} />
-          <Route path="/create-campaign" element={<CreateCampaign />} />
           <Route path="/campaign-details/:id" element={<CampaignDetails />} />
         </Routes>
       </div>
